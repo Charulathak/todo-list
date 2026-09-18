@@ -2,7 +2,7 @@
 
 A CRUD todo app built with React and Tailwind CSS, as a follow-up practice project after building a Contact Book — focused on learning derived state, controlled inputs, and browser persistence.
 
-**[Live Demo](https://todo-list-charu21.vercel.app/)** 
+**[Live Demo](https://todo-list-charu21.vercel.app/)**  
 
 ## Features
 
@@ -17,7 +17,7 @@ A CRUD todo app built with React and Tailwind CSS, as a follow-up practice proje
 
 ## What I learned
 
-This project built directly on patterns from my [Contact Book](#) project, with a few new concepts layered in:
+This project built directly on patterns from my [Contact Book](https://contact-book-cli-git-main-charu21.vercel.app/) project, with a few new concepts layered in:
 
 - The distinction between `useState` (source-of-truth data) and `useMemo` (derived/computed values like the filtered list and item count) — and why deriving instead of duplicating state avoids sync bugs
 - Controlled vs. uncontrolled inputs — every input's `value` is tied to state, so a checkbox with `checked` but no `onChange` silently becomes read-only (learned this the hard way from a React console warning)
@@ -53,4 +53,4 @@ Then open the local URL Vite prints (usually `http://localhost:5173`).
 
 ## Notes
 
-Built as a learning exercise to practice React state management, derived data, and browser storage from the ground up.
+Built as a learning exercise to practice React state management, derived data, and browser storage from the ground up
